@@ -1,0 +1,15 @@
+[project]
+name = "abg-comfyui"
+description = "Nodes: Remove Image Background (abg). A Anime Background Remover node for comfyui, based on this hf space, works same as AGB extention in automatic1111."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["opencv-python", "onnxruntime", "onnx", "numpy", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/kwaroran/abg-comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "abg-comfyui"
+Icon = ""
